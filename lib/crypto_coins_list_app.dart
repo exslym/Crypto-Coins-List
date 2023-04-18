@@ -9,6 +9,7 @@ class CryptoCurrenciesListApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
+      debugShowCheckedModeBanner: false,
       title: 'Crypto Currencies List',
       theme: darkTheme,
       routes: routes,
