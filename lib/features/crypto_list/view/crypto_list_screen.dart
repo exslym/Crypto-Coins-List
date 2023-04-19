@@ -100,6 +100,36 @@ class _CryptoListScreenState extends State<CryptoListScreen> {
           },
         ),
       ),
+      //! for WEB VERSION action button added:
+      // floatingActionButton: FloatingActionButton(
+      //   child: const Icon(Icons.refresh_outlined),
+      //   onPressed: () async {
+      //     final completer = Completer();
+      //     _cryptoListBloc.add(LoadCryptoList(completer: completer));
+      //     return completer.future;
+      //   },
+      // ),
+      // floatingActionButtonLocation: FloatingActionButtonLocation.centerFloat,
+      //
+      persistentFooterButtons: [
+        SizedBox(
+          width: MediaQuery.of(context).copyWith().size.width,
+          child: Row(
+            children: [
+              Expanded(
+                child: FloatingActionButton(
+                  child: const Icon(Icons.refresh_outlined),
+                  onPressed: () async {
+                    final completer = Completer();
+                    _cryptoListBloc.add(LoadCryptoList(completer: completer));
+                    return completer.future;
+                  },
+                ),
+              )
+            ],
+          ),
+        )
+      ],
     );
   }
 }

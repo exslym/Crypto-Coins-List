@@ -1,10 +1,10 @@
-# crypto_coins_list
+## [Cryptocurrency Price List App (web version)](https://cryptocurrency-prices-exslym.vercel.app/)
 
-A new Flutter project.
+![preview](https://github.com/exslym/Crypto-Coins-List/blob/main/assets/preview/preview.jpg)
 
-## Getting Started
+### Cryptocurrency Price List App - A new Flutter project
 
-This project is a starting point for a Flutter application.
+---
 
 A few resources to get you started if this is your first Flutter project:
 
