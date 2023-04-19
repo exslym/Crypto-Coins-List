@@ -4,6 +4,8 @@
 
 ### Cryptocurrency Price List App - A new Flutter project
 
+## Advanced error handling and logging for Dart and Flutter apps is supporting by ![Talker](https://pub.dev/packages/talker)
+
 ---
 
 A few resources to get you started if this is your first Flutter project:
