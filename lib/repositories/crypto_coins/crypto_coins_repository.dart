@@ -40,8 +40,10 @@ class CryptoCoinsRepository implements AbstractCoinsRepository {
       final usdData =
           (e.value as Map<String, dynamic>)['USD'] as Map<String, dynamic>;
       final details = CryptoCoinDetail.fromJson(usdData);
+
       return CryptoCoin(name: e.key, details: details);
     }).toList();
+
     return cryptoCoinsList;
   }
 
@@ -53,6 +55,7 @@ class CryptoCoinsRepository implements AbstractCoinsRepository {
       return coin;
     } catch (e, st) {
       GetIt.instance<Talker>().handle(e, st);
+
       return cryptoCoinsBox.get(currencyCode)!;
     }
   }
@@ -65,6 +68,7 @@ class CryptoCoinsRepository implements AbstractCoinsRepository {
     final coinData = dataRaw[currencyCode] as Map<String, dynamic>;
     final usdData = coinData['USD'] as Map<String, dynamic>;
     final details = CryptoCoinDetail.fromJson(usdData);
+
     return CryptoCoin(name: currencyCode, details: details);
   }
 }
