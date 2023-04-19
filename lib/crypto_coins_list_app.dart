@@ -11,7 +11,7 @@ class CryptoCurrenciesListApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      title: 'Crypto Currencies List',
+      title: 'Cryptocurrency Prices',
       theme: darkTheme,
       routes: routes,
       navigatorObservers: [
