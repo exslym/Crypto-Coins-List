@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "738890747389",
+    "project_id": "crypto-list-app-exslym",
+    "storage_bucket": "crypto-list-app-exslym.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:738890747389:android:a648e22a0a24c30656dd94",
+        "android_client_info": {
+          "package_name": "com.exslym.crypto_coins_list"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "738890747389-kmj74d232ni43o77o5hl7bp901ovl1rl.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBi-MvGb9kKCWFDmkgAxtkAjFcYRyzNRSk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "738890747389-kmj74d232ni43o77o5hl7bp901ovl1rl.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
