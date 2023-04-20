@@ -38,6 +38,7 @@ class _CryptoListScreenState extends State<CryptoListScreen> {
         title: const Text('Cryptocurrency Prices'),
         actions: [
           IconButton(
+            padding: const EdgeInsets.only(right: 10),
             onPressed: () {
               Navigator.of(context).push(
                 MaterialPageRoute(
